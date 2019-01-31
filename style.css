@@ -181,3 +181,37 @@ footer a{
     text-decoration: none;
 }
 
+/*Media Queries*/
+/*tablet breakpoint*/
+@media screen and (max-width: 768px){
+
+    footer{
+        background-color: lightseagreen;
+        font-style: italic;
+    
+    }
+
+    footer a{
+        color: #f34949;
+    }
+    footer li{
+        color: #333;
+    }
+
+    #featured li{
+        width: 46%;
+         background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Beavis_and_Butt-head_titlecard.png/250px-Beavis_and_Butt-head_titlecard.png);
+        
+    }
+
+   
+}
+
+@media screen and (max-width: 480px){
+/*mobile phone breakpoint*/
+    #featured li{
+        width: 60%;
+         background-image: url(https://occ-0-2433-444.1.nflxso.net/art/0160b/d9c2676b90e59f5054eec2bac1509908c980160b.jpg);
+        
+    }
+}
