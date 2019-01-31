@@ -209,6 +209,7 @@ footer a{
 
 @media screen and (max-width: 480px){
 /*mobile phone breakpoint*/
+
     #featured li{
         width: 60%;
          background-image: url(https://occ-0-2433-444.1.nflxso.net/art/0160b/d9c2676b90e59f5054eec2bac1509908c980160b.jpg);
