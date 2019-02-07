@@ -243,8 +243,26 @@ footer ul{
 /*mobile phone breakpoint*/
 
     #featured li{
-        width: 60%;
+        width: 90%;
+        margin: 20px 5%;
          background-image: url(https://occ-0-2433-444.1.nflxso.net/art/0160b/d9c2676b90e59f5054eec2bac1509908c980160b.jpg);
         
+    }
+
+    footer ul{
+        width: 98%;
+        text-align: center;
+    }
+
+    #home-menu li{
+        float: none;
+        width: 96%;
+        margin: 30px 2% !important;
+    }
+
+    #main-banner img{
+        position: relative;
+        width: 180%;
+        left: -40%;
     }
 }
