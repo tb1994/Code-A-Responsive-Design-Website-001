@@ -5,3 +5,4 @@ https://tb1994.github.io/Code-A-Responsive-Design-Website-001/
 1/31/2019--added comments to the @media to indicate tablet and mobile breakpoints, updated breakpoints. 
 2/5/2019--optimized the tablet breakpoint section to better suit tablet mode for the header/menu/logo and the footer.
 2/7/2019---optimized the mobile breakpoint section to better suit mobile mode for the header/menu/logo and the footer.
+2/7/2019A----created hamburger menu for mobile view, added hamburger img, created menu.js file to store functions for hamburger menu.
