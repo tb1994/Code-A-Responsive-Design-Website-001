@@ -242,6 +242,46 @@ footer ul{
 @media screen and (max-width: 480px){
 /*mobile phone breakpoint*/
 
+    .burger-nav{
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(images/burgermenu.png) no-repeat 98% center;
+        background-color: peru;
+        cursor: pointer;
+    }
+
+    header .wrapper{
+        width: 100%;
+        padding: 0;
+    }
+
+    header nav ul{
+        overflow: hidden;
+        background: gray;
+        height: 0;
+    }
+
+    header nav ul.open{
+        height: auto;
+    }
+
+    header nav ul li{
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav ul li a{
+        color: black;
+        padding: 10px;
+        border-bottom: 1px solid powderblue;
+        display: block;
+        margin: 0;
+    }
+
+
     #featured li{
         width: 90%;
         margin: 20px 5%;
